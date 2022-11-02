@@ -1,0 +1,27 @@
+@media screen and (max-width:750px) {
+    .mobile-navbar{
+        display: flex;
+        background:var(--main-color);
+        flex-wrap: wrap;
+    }
+    .desktop-navbar{
+        display: none;
+    }
+    .header-text-content{
+        min-width: 100%;
+        line-height: 1.5;
+    }
+    section .cards{
+        width: 90%;
+        padding: 20px auto;
+    }
+    .footer-two{
+        display: block;
+        text-align: center;
+    }
+    .icon-container {
+        padding-top: 10px;
+    }
+
+
+}
